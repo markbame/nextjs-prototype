@@ -40,4 +40,8 @@ export default
     cursor:pointer;
     text-align:center
   }
+  p {
+    display: block;
+    margin-left:80px;
+  }
 `

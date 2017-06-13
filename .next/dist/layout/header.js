@@ -54,9 +54,6 @@ var _style4 = _interopRequireDefault(_style3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/home/clouduser/knowledgeview/nextprot/layout/header.js';
-
-
 var Header = function (_Component) {
   (0, _inherits3.default)(Header, _Component);
 
@@ -70,96 +67,31 @@ var Header = function (_Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement('div', {
-        'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        }
+        'data-jsx-ext': _style4.default.__scopedHash
       }, _react2.default.createElement(_style2.default, {
         styleId: _style4.default.__scopedHash,
         css: _style4.default.__scoped
       }), _react2.default.createElement('ul', {
-        'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      }, _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }, _react2.default.createElement(_link2.default, { href: '/index', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }, _react2.default.createElement('a', {
-        'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }, 'Home'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        }
-      }, _react2.default.createElement(_link2.default, { href: '/items', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        }
-      }, _react2.default.createElement('a', {
-        'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        }
-      }, 'Items'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }, _react2.default.createElement(_link2.default, { href: '/cart', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }, _react2.default.createElement('a', {
-        'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }, 'Cart'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        }
-      }, _react2.default.createElement(_link2.default, { href: '/tracking', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        }
-      }, _react2.default.createElement('a', {
-        'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        }
-      }, 'Tracking'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        }
-      }, _react2.default.createElement(_link2.default, { href: '/about', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        }
-      }, _react2.default.createElement('a', {
-        'data-jsx-ext': _style4.default.__scopedHash,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        }
-      }, 'About')))));
+        'data-jsx-ext': _style4.default.__scopedHash
+      }, _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash
+      }, _react2.default.createElement(_link2.default, { href: '/index', prefetch: true }, _react2.default.createElement('a', {
+        'data-jsx-ext': _style4.default.__scopedHash
+      }, 'Home'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash
+      }, _react2.default.createElement(_link2.default, { href: '/items', prefetch: true }, _react2.default.createElement('a', {
+        'data-jsx-ext': _style4.default.__scopedHash
+      }, 'Items'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash
+      }, _react2.default.createElement(_link2.default, { href: '/cart', prefetch: true }, _react2.default.createElement('a', {
+        'data-jsx-ext': _style4.default.__scopedHash
+      }, 'Cart'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash
+      }, _react2.default.createElement(_link2.default, { href: '/tracking', prefetch: true }, _react2.default.createElement('a', {
+        'data-jsx-ext': _style4.default.__scopedHash
+      }, 'Tracking'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash
+      }, _react2.default.createElement(_link2.default, { href: '/about', prefetch: true }, _react2.default.createElement('a', {
+        'data-jsx-ext': _style4.default.__scopedHash
+      }, 'About'))), _react2.default.createElement('li', { className: 'navLink', 'data-jsx-ext': _style4.default.__scopedHash
+      }, _react2.default.createElement(_link2.default, { href: '/not-found', prefetch: true }, _react2.default.createElement('a', {
+        'data-jsx-ext': _style4.default.__scopedHash
+      }, 'Page404')))));
     }
   }], [{
     key: 'getInitialProps',
@@ -189,5 +121,7 @@ var Header = function (_Component) {
 
   return Header;
 }(_react.Component);
+//no more predefined route
+
 
 exports.default = Header;

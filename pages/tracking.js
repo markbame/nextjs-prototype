@@ -2,24 +2,24 @@ import React, { Component } from 'react'
 import Head from 'next/head'
 import Header from '../layout/header'
 import  testdiv, { globalcss } from '../style/style'
-export default class Index extends Component {
+export default class Tracking extends Component {
   static async getInitialProps () {
-    //This is for server side render implementation
-     await new Promise((resolve) => {
-       setTimeout(resolve, 2000) //has 2 seconds delay
-     })
+    // await new Promise((resolve) => {
+    //   setTimeout(resolve, 500)
+    // })
     return {}
   }
+
   render () {
     return (
       <div>
         <div className="wrapper">
           <Head>
-            <title>Index</title>
+            <title>Tracking</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           </Head>
           <Header />
-          <p>Index Page!</p>
+          <p>Tracking Page!</p>
           <style jsx>{testdiv}</style>
           <style jsx global>{globalcss}</style>
         </div>

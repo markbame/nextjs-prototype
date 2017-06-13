@@ -8,10 +8,6 @@ var _regenerator = require('babel-runtime/regenerator');
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _promise = require('babel-runtime/core-js/promise');
-
-var _promise2 = _interopRequireDefault(_promise);
-
 var _asyncToGenerator2 = require('babel-runtime/helpers/asyncToGenerator');
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
@@ -58,25 +54,25 @@ var _style4 = _interopRequireDefault(_style3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Index = function (_Component) {
-  (0, _inherits3.default)(Index, _Component);
+var Items = function (_Component) {
+  (0, _inherits3.default)(Items, _Component);
 
-  function Index() {
-    (0, _classCallCheck3.default)(this, Index);
+  function Items() {
+    (0, _classCallCheck3.default)(this, Items);
 
-    return (0, _possibleConstructorReturn3.default)(this, (Index.__proto__ || (0, _getPrototypeOf2.default)(Index)).apply(this, arguments));
+    return (0, _possibleConstructorReturn3.default)(this, (Items.__proto__ || (0, _getPrototypeOf2.default)(Items)).apply(this, arguments));
   }
 
-  (0, _createClass3.default)(Index, [{
+  (0, _createClass3.default)(Items, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement('div', null, _react2.default.createElement('div', { className: 'wrapper', 'data-jsx-ext': _style4.default.__scopedHash
       }, _react2.default.createElement(_head2.default, null, _react2.default.createElement('title', {
         'data-jsx-ext': _style4.default.__scopedHash
-      }, 'Index'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', 'data-jsx-ext': _style4.default.__scopedHash
+      }, 'Items'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', 'data-jsx-ext': _style4.default.__scopedHash
       })), _react2.default.createElement(_header2.default, null), _react2.default.createElement('p', {
         'data-jsx-ext': _style4.default.__scopedHash
-      }, 'Index Page!'), _react2.default.createElement(_style2.default, {
+      }, 'Items Page!'), _react2.default.createElement(_style2.default, {
         styleId: _style4.default.__scopedHash,
         css: _style4.default.__scoped
       }), _react2.default.createElement(_style2.default, {
@@ -92,16 +88,9 @@ var Index = function (_Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _context.next = 2;
-                return new _promise2.default(function (resolve) {
-                  setTimeout(resolve, 2000 //has 2 seconds delay
-                  );
-                });
-
-              case 2:
                 return _context.abrupt('return', {});
 
-              case 3:
+              case 1:
               case 'end':
                 return _context.stop();
             }
@@ -117,7 +106,7 @@ var Index = function (_Component) {
     }()
   }]);
 
-  return Index;
+  return Items;
 }(_react.Component);
 
-exports.default = Index;
+exports.default = Items;
